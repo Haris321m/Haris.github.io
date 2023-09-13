@@ -1,0 +1,80 @@
+#projects .container{
+
+    text-align: center;
+    margin-top: 100px;
+    font-family: roboto;
+
+}
+#projects .container h1{
+
+    font-size: 4em;
+
+}
+#projects .container a{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+#projects .container .projects-container{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+#projects .container .projects-container img{
+
+    width: 80%;
+    padding-top: 20px;
+
+}
+
+.project-style{
+
+    border: 2px solid rgb(106, 93, 255);
+    border-radius: 20px;
+    width: 30%;
+    background: rgba(0, 3, 90, 0.422);
+    translate: 0.5s;
+
+}
+.project-style:hover{
+
+    border: 2px solid rgb(106, 93, 255);
+    border-radius: 20px;
+    width: 30%;
+    background: rgb(0, 2, 54);
+    cursor: pointer;
+
+}
+
+#projects .container .more-projects{
+
+    margin-top: 20px;
+
+}
+#projects .container .more-projects button{
+
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-family: roboto;
+    font-size: 0.8em;
+    border: 2px solid rgba(255, 255, 255, 0);
+    background: rgba(0, 4, 131, 0.422);
+    color: white;
+    border: 2px solid rgba(107, 93, 255, 0.474);
+    transition: 0.5s;
+
+}
+
+#projects .container .more-projects button:hover{
+
+    cursor: pointer;
+    border: 2px solid rgb(106, 93, 255);
+    background: rgb(0, 2, 54);
+    box-shadow: 0px 0px 20px 5px rgba(107, 93, 255, 0.474);
+
+}

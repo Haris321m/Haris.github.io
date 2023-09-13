@@ -1,0 +1,49 @@
+@media (min-width : 1000px) and (max-width : 1200px) {
+    .container .text h1 {
+        font-size: 3em;
+        font-family: roboto;
+    }
+
+}
+
+
+@media (min-width : 800px) and (max-width : 1000px) {
+    .container .text {
+        margin-top: 4%;
+    }
+
+    .container .text h1 {
+        font-size: 3em;
+        font-family: roboto;
+    }
+
+}
+
+@media (min-width : 100px) and (max-width : 800px){
+
+    .container{
+
+        display: grid;
+        margin: auto;
+
+    }
+
+    .container .text h1 {
+        font-size: 3em;
+        font-family: roboto;
+    }
+
+    .container .text{
+
+        order: 1;
+        margin: auto;
+
+    }
+
+    .container  .image{
+
+        margin: auto;
+
+    }
+
+}

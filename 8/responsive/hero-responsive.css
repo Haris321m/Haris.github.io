@@ -1,0 +1,88 @@
+/* ************************************************************************************** */
+/* ************************ responsive    *********************************************** */
+/* ************************************************************************************** */
+
+@media (min-width: 1000px) and (max-width: 1400px) {
+
+    .hero .left{
+
+        margin: auto;
+
+    }
+    
+}
+
+
+@media (min-width: 900px) and (max-width: 1000px) {
+
+    .hero .left{
+
+        margin-top: 131px;
+
+    }
+    .hero .left .text h1{
+
+        font-size: 2.5em;
+
+    }
+    
+}
+
+
+@media (min-width: 700px) and (max-width: 900px) {
+
+    .hero .left{
+
+        margin-top: 131px;
+
+    }
+    .hero .left .text h1{
+
+        font-size: 2em;
+
+    }
+    .hero .left .text p{
+
+        font-size: 1em;
+
+    }
+    
+}
+
+@media (min-width: 700px) and (max-width: 800px){
+
+    .hero .left{
+
+        margin-top: 77px;
+
+    }
+
+}
+
+@media (min-width: 100px) and (max-width: 700px){
+
+    .hero{
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+        width: 78%;
+        margin: auto;
+
+    }
+
+    .hero .left{
+
+        width: 100%;
+        order: 1;
+        margin-top: 20px;
+
+    }
+
+    .hero .right{
+
+        width: 100%;
+
+    }
+
+}

@@ -1,0 +1,75 @@
+.hero {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.hero .left {
+
+    width: 40%;
+    
+}
+
+.hero .text{
+
+    font-family: roboto;
+
+}
+
+.hero .text h1{
+
+    font-size: 3em;
+
+}
+
+.hero .left .btn{
+
+    margin-top: 20px;
+
+}
+
+.hero .left .btn button{
+
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-family: roboto;
+    font-size: 0.8em;
+    border: 2px solid rgba(255, 255, 255, 0);
+    background: rgba(0, 4, 131, 0.422);
+    color: white;
+    border: 2px solid rgba(107, 93, 255, 0.474);
+    transition: 0.5s;
+    margin-left: 20px;
+
+}
+
+.hero .left .btn button:hover{
+
+    cursor: pointer;
+    border: 2px solid rgb(106, 93, 255);
+    background: rgb(0, 2, 54);
+    box-shadow: 0px 0px 20px 5px rgba(107, 93, 255, 0.474);
+
+}
+
+.hero .right{
+
+    width: 40%;
+
+}
+
+.hero .right .img{
+
+     width: 88%;
+
+}
+.hero .right .img img{
+
+     width: 100%;
+
+}
+
+
+
+

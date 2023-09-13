@@ -1,0 +1,29 @@
+@media (min-width : 100px) and (max-width : 800px){
+
+    #projects .container .projects-container{
+
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    #projects .container .projects-container .project-1{
+
+        width: 80%;
+        margin: 20px 10%;
+
+    }
+    #projects .container .projects-container .project-2{
+
+        width: 80%;
+        margin: 20px 10%;
+
+    }
+    #projects .container .projects-container .project-3{
+
+        width: 80%;
+        margin: 20px 10%;
+
+    }
+
+}

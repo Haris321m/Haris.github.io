@@ -1,0 +1,275 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background: black;
+    color: white;
+
+}
+
+/* *********************************************************************************************** */
+/* **************************************** Header nav ****************************************** */
+/* *********************************************************************************************** */
+
+
+.header .nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+
+}
+
+.header .nav .logo h1 a {
+
+    text-decoration: none;
+    color: white;
+    font-family: roboto;
+    transition: 0.5s;
+
+}
+
+.header .nav .logo h1 a:hover {
+
+    cursor: pointer;
+    color: orangered;
+
+}
+
+.header .ul {
+
+    display: flex;
+
+}
+
+.header .ul li {
+
+    list-style: none;
+    margin-left: 50px;
+    transition: 0.5s;
+
+}
+
+.header .ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-family: roboto;
+    transition: 0.5s;
+
+}
+
+.header .ul li a:hover {
+
+    cursor: pointer;
+    color: orangered;
+
+}
+
+.header .btn {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.header .btn button {
+
+    margin-left: 10px;
+    padding: 10px 15px;
+    font-family: roboto;
+
+}
+
+.header .btn .btn-1 {
+
+    background: transparent;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: 0.5s;
+
+}
+
+.header .btn .btn-1:hover {
+
+    background: orangered;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+
+.header .btn .btn-2 {
+
+    background: white;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    transition: 0.5s;
+
+}
+
+.header .btn .btn-2:hover {
+
+    background: orangered;
+    cursor: pointer;
+    color: white;
+
+}
+
+.header .nav .barger{
+
+    display: none;
+
+}
+
+/* ******************************************************************************************* */
+/* **************************************** Header Hero ************************************** */
+/* ******************************************************************************************* */
+
+.header .hero {
+
+    display: flex;
+    width: 80%;
+    margin: 2% 10%;
+
+}
+
+/* *********************************************************************************************** */
+/* **************************************** Header hero container-1 ****************************************** */
+/* *********************************************************************************************** */
+
+.header .hero .container-1 {
+
+    width: 40%;
+
+}
+
+.header .hero .container-1 .text-container h1 {
+
+    font-size: 5em;
+    font-family: roboto;
+
+}
+
+.header .hero .container-1 .text-container h1 span {
+
+    color: orangered;
+
+}
+
+.header .hero .container-1 .text-container p {
+
+    font-size: 1em;
+    font-family: roboto;
+    color: rgb(202, 202, 202);
+    margin-top: 10px;
+
+}
+
+.header .hero .container-1 .btn button {
+
+    margin-top: 10px;
+
+}
+
+.header .hero .container-1 .btn .btn-container-1 {
+
+    border-radius: 20px;
+    padding: 10px 40px;
+    background: orangered;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0);
+    transition: 0.5s;
+
+}
+
+.header .hero .container-1 .btn .btn-container-1:hover {
+
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: 2px solid white;
+
+}
+
+.header .hero .container-1 .btn .btn-container-2 {
+
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: black;
+    border: 2px solid white;
+    color: white;
+    transition: 0.5s;
+
+}
+
+.header .hero .container-1 .btn .btn-container-2:hover {
+
+    cursor: pointer;
+    background: orangered;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0);
+
+}
+
+/* *********************************************************************************************** */
+/* **************************************** Header hero container-2 ****************************************** */
+/* *********************************************************************************************** */
+
+.header .hero .container-2 {
+
+    width: 40%;
+
+}
+
+.header .hero .image{
+
+    width: 80%;
+    margin: auto;
+    margin-left: 50%;
+    transition: 0.5s;
+
+}
+.header .hero .image:hover{
+
+    width: 80%;
+    margin: auto;
+    margin-left: 50%;
+    transform: rotate(-5deg);
+
+
+}
+.header .hero .image img{
+
+    width: 80%;
+    margin: auto;
+    background: white;
+    border-radius: 20px;
+    transition: 0.5s;
+
+}
+.header .hero .image img:hover{
+
+    cursor: pointer;
+    transform: rotate(5deg);
+
+}
+
+.header  .hero .image .bg{
+
+    position: absolute;
+    width: 21%;
+    height: 35vw;
+    border-radius: 20px;
+    z-index: -1;
+    transform: rotate(5deg);
+    transition: 0.5s;
+
+}

@@ -1,0 +1,174 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav .logo{
+
+    font-size: 1.5em;
+    font-family: roboto;
+
+}
+
+
+.nav .ul{
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav .ul li{
+
+    list-style: none;
+    font-size: 1em;
+    font-family: roboto;
+    justify-content: space-around;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+.nav .ul li:hover{
+
+    cursor: pointer;
+    color: white;
+    background: blueviolet;
+
+
+}
+
+.nav .contect button{
+
+    padding: 10px 25px;
+    font-family: roboto;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    transition: 0.5s;
+
+}
+.nav .contect button:hover{
+
+    background: white;
+    color: black;
+    cursor: pointer;
+
+}
+
+
+.container{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+.container .text{
+
+    width: 40%;
+
+}
+.container .image{
+
+    width: 20%;
+
+}
+
+.container .image img{
+
+    width: 100%;
+
+}
+
+.container .text h1{
+
+    font-size: 4em;
+    font-family: roboto;
+
+}
+
+.container .text{
+
+    margin-top: 8%;
+
+}
+
+.container .web{
+
+    color: blueviolet;
+
+}
+
+.container .text .color{
+
+    color: rgb(140, 140, 140);
+
+}
+
+.container .text p{
+
+    font-family: roboto;
+    color: rgb(0, 0, 0);
+
+}
+
+
+.container .btn-2 {
+
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 1em;
+    margin-top: 20px;
+    background: rgba(137, 43, 226, 0.396);
+    border: 2px solid blueviolet;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    margin-left: 30px;
+
+}
+.container .btn-2:hover{
+
+    background: blueviolet;
+    border: 2px solid blueviolet;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px blueviolet;
+
+}
+
+
+.container .text .btn-1{
+
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    background: blueviolet;
+    border: 2px solid blueviolet;
+    transition: 0.5s;
+    font-size: 1em;
+
+}
+
+
+.container .text .btn-1:hover{
+
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px blueviolet;
+
+}

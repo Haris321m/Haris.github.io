@@ -1,0 +1,26 @@
+.about-section{
+
+    text-align: center;
+    font-family: roboto;
+    margin: 50px 50px;
+
+}
+
+.about-section h1{
+
+    font-size: 3em;
+
+}
+
+.about-section p{
+
+    margin-top: 10px;
+    font-size: 1.5em;
+
+}
+
+.about-section p span{
+
+    color: rgb(187, 187, 255);
+
+}
